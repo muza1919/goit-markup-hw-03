@@ -19,12 +19,19 @@ body{
     background-color: var(--primary-white-color);
 }
 .list{
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 .link{
     text-decoration: none;
 }
-
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    outline: 2px solid orangered;
+}
 .logo{
     color: var(--black);
     font-family: Raleway, sans-serif;
@@ -72,6 +79,7 @@ body{
 
 .decision{
     background-color: var(--bg-color-dark);
+    text-align: center;
 }
 .decision-title{
     color: var(--primary-white-color);
@@ -81,6 +89,8 @@ body{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 .btn-service{
     color: var(--primary-white-color);
@@ -91,6 +101,7 @@ body{
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
+    border-radius: 4px;
     cursor: pointer;
 }
 .features-title{
@@ -100,16 +111,30 @@ body{
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 .features-details{
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.padding{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.no-padding-top{
+    padding-top: 0;
+    padding-bottom: 94px;
 }
 
 .section-team{
     background-color: var(--bg-color-misty);
 }
+
 .section-title{
     color:var(--title-text-color);
     font-weight: 700;
@@ -117,9 +142,13 @@ body{
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 50px;
+
 }
 .team-item {
     background-color: var(--primary-white-color);
+    padding-bottom: 30px;
 }
 .team-subtitle{
    color: var(--title-text-color);
@@ -128,11 +157,15 @@ body{
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 .team-profession{
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .portfolio-subtitle{
